@@ -9,4 +9,15 @@ int main(){
 
     // true = 1
     // false = 0
+
+    printf("%d\n",10 > 5);
+    // will print true > 0
+
+    printf("%d\n",10 < 5);
+    // will print false > 0
+
+    bool IsBurgerTasty = true;
+    bool IsPizzaTasty = true;
+
+    printf("Pizza Burger Tasty result : %d",IsBurgerTasty == IsPizzaTasty);
 }
